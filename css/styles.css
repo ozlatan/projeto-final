@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #dee3ff;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: #ff8f8f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+}
+
+.titulo {
+    font-family: "freehand521-bt", cursive;
+    color: #ff0000;
+    font-size: 42px;
+    text-shadow: #FFFFFF 2px -2px, #FFF -2px 2px,
+                #FFFFFF 2px 2px, #FFF -2px -2px;
+    padding-left: 10px;
+    margin: 0px; 
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 15px 20px;
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ /* botoes do home ali em */
+nav ul li a:hover {
+    background-color: #D8EDDE;
+    color: #860000;
+    border-bottom: 6px solid #660000;
+    border-right: 4px solid #660000;
+    border-radius: 100px;
+}
+.imagem-principal {
+    width: 100%;
+    text-align: center;
+    padding-left: 2px;
+    padding-top: 10px;
+}
+
+.grid_jogadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-family: "freehand521-bt";
+    font-size: 40px;
+    text-align: center;
+    font-family: "freehand521-bt", cursive;
+    color: #ff0000;
+    font-size: 42px;
+    text-shadow: #FFFFFF 2px -2px, #FFF -2px 2px,
+                #FFFFFF 2px 2px, #FFF -2px -2px;
+    margin: 30px 0px;
+    margin-block-end: 4%;
+    padding: px;
+    margin: 65px;
+    background-color: #ff8f8f;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.jogadores {
+    background-color: #9BD3AE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto {
+    margin-top: 2%;
+    margin-block-end: 4%;
+    padding: 20px;
+    margin: 65px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ff8f8f;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+padding-left: 36%;
+
+}
